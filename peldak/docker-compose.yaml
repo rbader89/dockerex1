@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  dancerdev:
+    image: test/ujimage
+    build:
+      context: /home/student/dockerex1
+      dockerfile: Dockerfile
+    ports:
+    - "3000:3000"
